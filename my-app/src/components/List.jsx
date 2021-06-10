@@ -19,7 +19,7 @@ function List() {
 console.log(todos)
 
   return (
-    <Paper className="paper">
+    <Paper id="paper" square>
     <form onSubmit={handleAddTask} >
       <TextField id="standard-basic"  className="InputDeed" InputProps={{
           startAdornment: (
@@ -44,9 +44,9 @@ console.log(todos)
     <nav className='controlPanel'>
       <h3>{todos.length} item left</h3>
       <div>
-      <Button>All</Button>
-      <Button>Active</Button>
-      <Button>Completed</Button>
+      <Button variant="outlined" disableRipple >All</Button>
+      <Button disableRipple>Active</Button>
+      <Button disableRipple>Completed</Button>
       </div>
       <h3>Clear complited</h3>
     </nav>

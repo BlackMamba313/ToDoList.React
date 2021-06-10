@@ -1,12 +1,7 @@
-.header {
-    display: flex;
-}
-
-.title {
+header h1 {
     padding: 0;
     margin: 0 auto;
-    font-size: 9rem;
+    font-size: 10rem;
     font-weight: 100;
-    color: rgba(166, 43, 43, .4);
-    
+    color: rgba(166, 43, 43, .2); 
 }

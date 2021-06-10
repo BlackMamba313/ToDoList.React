@@ -1,11 +1,12 @@
 import '../styles/header.css';
+import Typography from '@material-ui/core/Typography';
 
 function Header() {
     return (
-    <header className='header'>
-      <h1 className='title'>
+    <header>
+      <Typography component="h1" variant="inherit">
         todos
-      </h1>
+      </Typography>
     </header>
     );
   }
