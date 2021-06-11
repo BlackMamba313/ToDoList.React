@@ -7,15 +7,13 @@
     0 20px 1px -9px rgba(0,0,0,0.15),
     0 20px 7px 15px  rgba(0,0,0,0.1);
   }
-
-
-
-form {
-  margin: 0;
-}
+  
+#listItem {
+  border-bottom: rgba(0, 0, 0,.3) solid 1px;
+} 
 
 #standard-basic {
-  padding: 15px 0;
+  padding: 20px 0;
 }
 nav {
   font-weight: 100;
