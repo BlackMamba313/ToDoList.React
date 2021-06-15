@@ -2,29 +2,29 @@ import React from 'react';
 import TextField from '@material-ui/core/TextField';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import InputAdornment from '@material-ui/core/InputAdornment';
+import useInputState from './useInputState';
 
 const TodoForm = ({ saveTodo }) => {
-    const [value, setValue] = React.useState('');
+    const { value, reset, onChange } = useInputState();
 
   return (
-    <form 
-        onSubmit={event => {
-        event.preventDefault();
-        saveTodo(value);
-        setValue('');
-      }}>
-      <TextField id="standard-basic"  className="InputDeed" InputProps={{
+      <form
+          onSubmit={event => {
+              event.preventDefault();
+              saveTodo(value);
+              reset();
+          }}
+      >
+      <TextField size="medium" id="standard-basic"  InputProps={{
           startAdornment: (
-            <InputAdornment position="start">
+            <InputAdornment  position="start">
               <ExpandMoreIcon />
             </InputAdornment>
           ),
         }}
         fullWidth
         placeholder="What needs to be done?"
-        onChange={event => {
-          setValue(event.target.value);
-        }}
+                 onChange={onChange}
         value={value}
       />
    </form>
