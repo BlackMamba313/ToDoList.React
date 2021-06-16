@@ -2,29 +2,74 @@ import React from 'react';
 import './App.css';
 import Header from './components/Header';
 import TodoForm from './components/TodoForm'
-import TodoItem from './components/TodoItem';
+import Todo from './components/Todo';
 import ControlPalel from './components/ControlPanel';
-import useTodoState from './components/useTodoState';
 import Paper from '@material-ui/core/Paper';
 import Container from '@material-ui/core/Container';
+
+
 function App() {
-   const { todos, addTodo, deleteTodo } = useTodoState([]);
+
+
+
+    const [todos, setTodos] = React.useState([])
+
+    const addTask = (userInput) => {
+        if(userInput) {
+            const newItem = {
+                id: Math.random().toString(36).substr(2,9),
+                task: userInput,
+                complete: false
+            }
+            setTodos([...todos, newItem])
+        }
+    }
+
+    const removeTask = (id) => {
+        setTodos([...todos.filter((todo) => todo.id !== id)])
+    }
+
+    function clearCompleted() {
+        setTodos([...todos.filter((todo) => !todo.complete)])
+    }
+
+    const handleToggle = (id) => {
+        setTodos([
+            ...todos.map((todo) =>
+                todo.id === id ? { ...todo, complete: !todo.complete } : {...todo }
+            )
+        ])
+    }
+    let allTasks = todos
+    let compliteTasks = [...todos].filter(todo => todo.complete)
+    let activeTasks = [...todos].filter(todo => !todo.complete)
+
+    function showTask(chose){
+
+    }
 
   return (
       <Container maxWidth="sm">
         <Header />
           <Paper id="paper" square>
-              <TodoForm
-                  saveTodo={todoText => {
-                      const trimmedText = todoText.trim();
+              <TodoForm addTask={addTask} />
+              {todos.map((todo) => {
+                  return (
+                      <Todo
+                          todo={todo}
+                          key={todo.id}
+                          toggleTask={handleToggle}
+                          removeTask={removeTask}
+                      />
+                  )
+              })}
+              {(todos.length>0)&&<ControlPalel todos={todos}
+                                               showTask={showTask}
+                                               compliteTasks={compliteTasks}
+                                               activeTasks={activeTasks}
+                                               clearCompleted={clearCompleted}
 
-                      if (trimmedText.length > 0) {
-                          addTodo(trimmedText);
-                      }
-                  }}
-              />
-              <TodoItem todos={todos} deleteTodo={deleteTodo} />
-              {(todos.length>0)&&<ControlPalel todos={todos} />}
+              />}
      </Paper>
     </Container>
   );

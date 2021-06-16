@@ -20,3 +20,14 @@
   padding: 20px 0;
   font-size: 20px;
 }
+
+
+
+.strike {
+  text-decoration: line-through;
+  color: #b2b2b2;
+}
+
+.item-text {
+  display: inline-block;
+}

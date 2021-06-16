@@ -2,18 +2,23 @@ import React from 'react';
 import TextField from '@material-ui/core/TextField';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import InputAdornment from '@material-ui/core/InputAdornment';
-import useInputState from './useInputState';
 
-const TodoForm = ({ saveTodo }) => {
-    const { value, reset, onChange } = useInputState();
+function TodoForm({ addTask }) {
+    const [userInput, setUserInput] = React.useState('')
+
+    const handleChange = (e) => {
+        setUserInput(e.currentTarget.value)
+    }
+
+    const handleSubmit = (e) => {
+        e.preventDefault()
+        addTask(userInput)
+        setUserInput("")
+    }
+
 
   return (
-      <form
-          onSubmit={event => {
-              event.preventDefault();
-              saveTodo(value);
-              reset();
-          }}
+      <form onSubmit={handleSubmit}
       >
       <TextField size="medium" id="standard-basic"  InputProps={{
           startAdornment: (
@@ -24,8 +29,8 @@ const TodoForm = ({ saveTodo }) => {
         }}
         fullWidth
         placeholder="What needs to be done?"
-                 onChange={onChange}
-        value={value}
+        onChange={handleChange}
+        value={userInput}
       />
    </form>
   );
