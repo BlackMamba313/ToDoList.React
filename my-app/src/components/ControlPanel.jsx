@@ -3,7 +3,7 @@ import Typography from '@material-ui/core/Typography';
 import '../styles/controlPanel.css';
 
 function ControlPanel({todos}) {
-
+    
     return (
         <nav className='controlPanel'>
             <Typography component="h3" variant="inherit">{todos.length} item left</Typography>

@@ -24,7 +24,7 @@ function App() {
                   }}
               />
               <TodoItem todos={todos} deleteTodo={deleteTodo} />
-     <ControlPalel todos={todos} />
+              {(todos.length>0)&&<ControlPalel todos={todos} />}
      </Paper>
     </Container>
   );
