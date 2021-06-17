@@ -13,7 +13,7 @@ function App() {
 
 
     const [todos, setTodos] = React.useState([])
-
+    const [tasks, setFilter] = React.useState(todos)
     const addTask = (userInput) => {
         if(userInput) {
             const newItem = {
@@ -40,20 +40,26 @@ function App() {
             )
         ])
     }
+    
+    
+
+    function showTask(chose) {
+        if(chose === 'all') { tasks = allTasks}
+        else if(chose === 'actve') { tasks = activeTasks}
+        else if(chose === 'complited') { tasks = compliteTasks}
+    }
+    
     let allTasks = todos
     let compliteTasks = [...todos].filter(todo => todo.complete)
     let activeTasks = [...todos].filter(todo => !todo.complete)
 
-    function showTask(chose){
-
-    }
 
   return (
       <Container maxWidth="sm">
         <Header />
           <Paper id="paper" square>
               <TodoForm addTask={addTask} />
-              {todos.map((todo) => {
+              {tasks.map((todo) => {
                   return (
                       <Todo
                           todo={todo}

@@ -2,7 +2,7 @@ import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import '../styles/controlPanel.css';
 
-function ControlPanel({todos, showTask, clearCompleted, activeTasks, completeTasks}) {
+function ControlPanel({ showTask, clearCompleted, activeTasks}) {
 
 
 
