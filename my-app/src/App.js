@@ -13,7 +13,6 @@ function App() {
 
 
     const [todos, setTodos] = React.useState([])
-    const [tasks, setFilter] = React.useState(todos)
     const addTask = (userInput) => {
         if(userInput) {
             const newItem = {
