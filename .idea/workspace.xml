@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3e01991d-c666-45c1-af35-639e4f1e3e63" name="Default Changelist" comment="изменил логику 2">
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Default_Changelist.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Default_Changelist/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_18_06_2021,_10_08_[Default_Changelist]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_18_06_2021__10_08__Default_Changelist_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/public/logo192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/public/logo512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/App.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/components/ControlPanel.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/components/Header.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/components/Todo.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/components/TodoForm.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/redux/store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/reportWebVitals.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/setupTests.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/styles/controlPanel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/styles/todo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/components/TodoApp.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/TodoApp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/components/TodoList.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/TodoList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/redux/slices/todos.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/redux/slices/todos.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="KEEP" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1tnq81slwX8UYpCK4tkK5exznhw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/my-app/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3e01991d-c666-45c1-af35-639e4f1e3e63" name="Default Changelist" comment="" />
+      <created>1623415041057</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1623415041057</updated>
+      <workItem from="1623415044961" duration="1450000" />
+      <workItem from="1623416659740" duration="9723000" />
+      <workItem from="1623740670693" duration="17687000" />
+      <workItem from="1623760443710" duration="1563000" />
+      <workItem from="1623764578334" duration="3203000" />
+      <workItem from="1623826985197" duration="24554000" />
+      <workItem from="1623912472103" duration="25948000" />
+      <workItem from="1623941104095" duration="5000" />
+      <workItem from="1624000134029" duration="237000" />
+      <workItem from="1624000374531" duration="29000" />
+      <workItem from="1624000493396" duration="8665000" />
+      <workItem from="1624010724310" duration="13679000" />
+      <workItem from="1624258207818" duration="28592000" />
+    </task>
+    <task id="LOCAL-00001" summary="поправил немного стили">
+      <created>1623768084899</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1623768084899</updated>
+    </task>
+    <task id="LOCAL-00002" summary="изменил логику создания task сделал отчистку выполненных задач">
+      <created>1623853625178</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1623853625178</updated>
+    </task>
+    <task id="LOCAL-00003" summary="изменил логику 2">
+      <created>1624024403787</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1624024403787</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="поправил стили" />
+    <MESSAGE value="поправил немного стили" />
+    <MESSAGE value="изменил логику создания task сделал отчистку выполненных задач" />
+    <MESSAGE value="изменил логику 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="изменил логику 2" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

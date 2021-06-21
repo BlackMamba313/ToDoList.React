@@ -1,0 +1,28 @@
+
+#listItem {
+  border-bottom: rgba(0, 0, 0,.1) solid 1px;
+}
+
+#list {
+  margin: 0;
+  padding: 0;
+}
+
+.MuiInputAdornment-positionStart {
+  margin-left: 25px;
+}
+
+#standard-basic {
+  padding: 20px 0;
+  font-size: 20px;
+  border-bottom: rgba(128, 128, 128,.1) solid 1px;
+}
+
+.strike {
+  text-decoration: line-through;
+  color: #b2b2b2;
+}
+
+.item-text {
+  display: inline-block;
+}

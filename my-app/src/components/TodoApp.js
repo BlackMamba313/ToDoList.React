@@ -4,8 +4,8 @@ import Header from './Header';
 import TodoForm from './TodoForm'
 import TodoList from './TodoList';
 import ControlPalel from './ControlPanel';
-import Paper from '@material-ui/core/Paper';
-import Container from '@material-ui/core/Container';
+import { Paper, Container } from '@material-ui/core';
+
 
 
 function TodoApp() {

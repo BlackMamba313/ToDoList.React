@@ -1,0 +1,16 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+h3 {
+    font-weight: 200;
+    font-size: 16px;
+}
+
+.MuiButton-label {
+    text-transform: none;
+    font-weight: 200;
+    font-size: 16px;
+    color: #635f5c;
+}
