@@ -1,18 +1,18 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
-import Header from './Header';
-import TodoForm from './TodoForm'
-import TodoList from './TodoList';
-import ControlPalel from './ControlPanel';
+import Header from '../Header/index';
+import TodoForm from '../TodoForm/index'
+import TodoList from '../TodoList/index';
+import ControlPalel from '../ControlPanel/index';
 import { Paper, Container } from '@material-ui/core';
-
+import useStyles from './styles';
 
 
 function TodoApp() {
     const todos = useSelector((state) => state.todos.collection);
-
+    const classes = useStyles();
     return (
-        <Container maxWidth="sm">
+        <Container  classes={{root: classes.root}}>
             <Header />
             <Paper id="paper" square>
                 <TodoForm />
@@ -24,4 +24,4 @@ function TodoApp() {
 
 }
 
-export default TodoApp;
+export default TodoApp

@@ -3,15 +3,9 @@ import {useDispatch} from 'react-redux';
 import { TextField, InputAdornment } from '@material-ui/core';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import { v4 as uuidv4 } from 'uuid';
-import { add, show } from '../redux/slices/todos'
-import { makeStyles } from '@material-ui/core/styles';
+import { add, show } from '../../redux/slices/todos'
+import useStyles from './styles';
 
-const useStyles = makeStyles({
-    icon: {
-        fontSize: 40,
-        color: '#c0c0c0',
-    },
-});
 
 function TodoForm() {
     const classes = useStyles();
@@ -43,11 +37,11 @@ function TodoForm() {
 
 
   return (
-      <form onSubmit={addTask}>
-      <TextField size="medium" id="standard-basic"  InputProps={{
+      <form  onSubmit={addTask}>
+      <TextField classes={{root: classes.root}} size="medium" id="standard-basic"  InputProps={{
           startAdornment: (
             <InputAdornment  position="start">
-              <ExpandMoreIcon className={classes.icon} />
+              <ExpandMoreIcon classes={{root: classes.icon}} />
             </InputAdornment>
           ),
         }}

@@ -1,24 +1,11 @@
 import React, {useState} from 'react';
 import {useDispatch} from 'react-redux';
-import '../styles/todo.css';
 import { InputBase, ListItem, IconButton, Checkbox, ListItemSecondaryAction, } from '@material-ui/core';
-import CheckCircleOutlineRoundedIcon from '@material-ui/icons/CheckCircleOutlineRounded';
+import CheckIcon from '@material-ui/icons/Check';
 import RadioButtonUncheckedIcon from '@material-ui/icons/RadioButtonUnchecked';
 import ClearIcon from '@material-ui/icons/Clear';
-import {remove, toggle, show, edit} from '../redux/slices/todos'
-import { makeStyles } from '@material-ui/core/styles';
-
-const useStyles = makeStyles({
-    check: {
-        fontSize: 30,
-        color: 'green',
-    },
-    uncheck: {
-        fontSize: 30,
-        color: '#c0c0c0',
-    },
-});
-
+import {remove, toggle, show, edit} from '../../redux/slices/todos'
+import useStyles from './styles';
 
 
 function Todo({todo}) {
@@ -49,19 +36,19 @@ function Todo({todo}) {
     }
 
     return (
-        <ListItem id='listItem' key={todo.id} dense button >
-            <Checkbox onClick={toggleTask}
-                      icon={<RadioButtonUncheckedIcon className={classes.uncheck} />}
-                      checkedIcon={<CheckCircleOutlineRoundedIcon className={classes.check} />}
+        <ListItem classes={{root: classes.list}} key={todo.id}  >
+            <Checkbox onClick={toggleTask}  checked={todo.complete?true:false}
+                      icon={<RadioButtonUncheckedIcon classes={{root: classes.uncheck}} />}
+                      checkedIcon={<CheckIcon
+                          classes={{root: classes.check}} />}
                       />
-            <InputBase
+            <InputBase classes={todo.complete ? {root: classes.complete} : {root: classes.task}}
                 onChange={getValue}
                 onKeyPress={editTask}
-                className={todo.complete ? "item-text strike" : "item-text"}
                 defaultValue={todo.name}
                 fullWidth/>
             <ListItemSecondaryAction>
-                <IconButton
+                <IconButton classes={{root: classes.delete}}
                     aria-label="Delete"
                     onClick={removeTask}>
                     <ClearIcon />

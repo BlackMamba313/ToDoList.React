@@ -1,41 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3e01991d-c666-45c1-af35-639e4f1e3e63" name="Default Changelist" comment="изменил логику 2">
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Default_Changelist.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Default_Changelist/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_18_06_2021,_10_08_[Default_Changelist]/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_18_06_2021__10_08__Default_Changelist_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/public/logo192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/public/logo512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/public/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/App.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/App.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/components/ControlPanel.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/components/Header.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/components/Todo.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/components/TodoForm.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/redux/store.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/reportWebVitals.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/setupTests.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/styles/controlPanel.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/styles/todo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/components/TodoApp.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/TodoApp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/components/TodoList.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/TodoList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/redux/slices/todos.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/redux/slices/todos.js" afterDir="false" />
+    <list default="true" id="3e01991d-c666-45c1-af35-639e4f1e3e63" name="Default Changelist" comment="осталось поправить стили">
+      <change afterPath="$PROJECT_DIR$/my-app/src/components/ControlPanel/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/components/ControlPanel/styles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/components/Header/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/components/Header/styles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/components/Todo/styles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/components/TodoApp/styles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/components/TodoForm/styles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/components/TodoList/styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/components/ControlPanel.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/components/Header.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/components/Todo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/Todo/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/components/TodoApp.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/TodoApp/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/components/TodoForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/TodoForm/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/components/TodoList.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/TodoList/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/styles/controlPanel.css" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/styles/controlPanel.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/styles/todo.css" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/styles/todo.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,6 +65,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/my-app/src/components/TodoList" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -88,6 +73,22 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/my-app/src/components/TodoList" />
+      <recent name="$PROJECT_DIR$/my-app/src/components/TodoForm" />
+      <recent name="$PROJECT_DIR$/my-app/src/components/TodoApp" />
+      <recent name="$PROJECT_DIR$/my-app/src/components/Todo" />
+      <recent name="$PROJECT_DIR$/my-app/src/components/Header" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/my-app/src/components/TodoApp" />
+      <recent name="$PROJECT_DIR$/my-app/src/components/TodoList" />
+      <recent name="$PROJECT_DIR$/my-app/src/components/TodoForm" />
+      <recent name="$PROJECT_DIR$/my-app/src/components/Todo" />
+      <recent name="$PROJECT_DIR$/my-app/src/components/Header" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
@@ -126,7 +127,11 @@
       <workItem from="1624000374531" duration="29000" />
       <workItem from="1624000493396" duration="8665000" />
       <workItem from="1624010724310" duration="13679000" />
-      <workItem from="1624258207818" duration="28592000" />
+      <workItem from="1624258207818" duration="28931000" />
+      <workItem from="1624345448268" duration="5401000" />
+      <workItem from="1624351029984" duration="83000" />
+      <workItem from="1624351248308" duration="8659000" />
+      <workItem from="1624360446480" duration="9488000" />
     </task>
     <task id="LOCAL-00001" summary="поправил немного стили">
       <created>1623768084899</created>
@@ -149,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624024403787</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="осталось поправить стили">
+      <created>1624287668156</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1624287668156</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,7 +201,8 @@
     <MESSAGE value="поправил немного стили" />
     <MESSAGE value="изменил логику создания task сделал отчистку выполненных задач" />
     <MESSAGE value="изменил логику 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="изменил логику 2" />
+    <MESSAGE value="осталось поправить стили" />
+    <option name="LAST_COMMIT_MESSAGE" value="осталось поправить стили" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

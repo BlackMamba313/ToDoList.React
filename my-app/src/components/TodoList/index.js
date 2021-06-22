@@ -1,16 +1,12 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
 import List from '@material-ui/core/List';
-import Todo from './Todo'
+import Todo from '../Todo'
 import map from "lodash/map";
-import '../styles/todo.css';
-import { makeStyles } from '@material-ui/core/styles';
+import '../../styles/todo.css';
+import useStyles from './styles';
 
-const useStyles = makeStyles({
-    list: {
-        padding: 0,
-    },
-});
+
 
 
 
