@@ -1,22 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3e01991d-c666-45c1-af35-639e4f1e3e63" name="Default Changelist" comment="well done">
+    <list default="true" id="3e01991d-c666-45c1-af35-639e4f1e3e63" name="Default Changelist" comment="now well done">
+      <change afterPath="$PROJECT_DIR$/my-app/prettier.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/src/components/ControlPanel/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/ControlPanel/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/components/ControlPanel/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/ControlPanel/styles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/components/TodoApp/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/TodoApp/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/components/TodoApp/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/TodoApp/styles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/components/TodoForm/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/TodoForm/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/components/Header/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/Header/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/components/Todo/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/Todo/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/src/components/TodoForm/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/TodoForm/styles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/components/TodoList/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/TodoList/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/styles/controlPanel.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/styles/todo.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/redux/slices/todos.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/redux/slices/todos.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +123,8 @@
       <workItem from="1624351029984" duration="83000" />
       <workItem from="1624351248308" duration="8659000" />
       <workItem from="1624360446480" duration="9952000" />
-      <workItem from="1624432133140" duration="12744000" />
+      <workItem from="1624432133140" duration="12889000" />
+      <workItem from="1624453337004" duration="3495000" />
     </task>
     <task id="LOCAL-00001" summary="поправил немного стили">
       <created>1623768084899</created>
@@ -166,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624370094170</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="now well done">
+      <created>1624445112996</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1624445112996</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,7 +210,8 @@
     <MESSAGE value="изменил логику 2" />
     <MESSAGE value="осталось поправить стили" />
     <MESSAGE value="well done" />
-    <option name="LAST_COMMIT_MESSAGE" value="well done" />
+    <MESSAGE value="now well done" />
+    <option name="LAST_COMMIT_MESSAGE" value="now well done" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
