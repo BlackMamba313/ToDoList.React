@@ -14,7 +14,7 @@ function TodoApp() {
     return (
         <Container  classes={{root: classes.root}}>
             <Header />
-            <Paper id="paper" square>
+            <Paper classes={{root: classes.list}} square>
                 <TodoForm />
                 <TodoList/>
                 {(todos.length!==0)&&<ControlPalel />}

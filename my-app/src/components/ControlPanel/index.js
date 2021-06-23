@@ -1,5 +1,4 @@
-import { Button, Typography } from '@material-ui/core/';
-import '../../styles/controlPanel.css';
+import { Button, Typography, Grid } from '@material-ui/core/';
 import {clear, select, show} from '../../redux/slices/todos'
 import { useDispatch, useSelector } from 'react-redux';
 import filter from "lodash/filter"
@@ -31,21 +30,34 @@ function ControlPanel() {
     const isActive = filter(todos, todo => !todo.complete)
     const isComplited = filter(todos, todo => todo.complete)
     return (
-        <nav className='controlPanel'>
-            <Typography classes={{root: classes.text}} component="h3" variant="inherit">{isActive.length} item left</Typography>
+        <Grid classes={{root: classes.grid}}
+            container
+            direction="row"
+            justify="space-around"
+            alignItems="center"
+        >
+            <Typography classes={{root: classes.text}} component="h3" variant="inherit">
+                {isActive.length} {(isActive.length>1)?'items':'item'}  left
+            </Typography>
             <div>
-                <Button classes={(choice=='All'?{root: classes.activButton}:{root: classes.button})}
+                <Button classes={(choice==='All'
+                    ?{root: classes.activButton, label: classes.buttonText}
+                    :{root: classes.button, label: classes.buttonText})}
                         onClick={showTask}  >All</Button>
-                <Button classes={choice=='Active'?{root: classes.activButton}:{root: classes.button}}
+                <Button classes={choice==='Active'
+                    ?{root: classes.activButton, label: classes.buttonText}
+                    :{root: classes.button, label: classes.buttonText}}
                         onClick={showTask} >Active</Button>
-                <Button classes={choice=='Completed'?{root: classes.activButton}:{root: classes.button}}
+                <Button classes={choice==='Completed'
+                    ?{root: classes.activButton, label: classes.buttonText}
+                    :{root: classes.button, label: classes.buttonText}}
                         onClick={showTask} >Completed</Button>
             </div>
             <Typography
                 classes={(isComplited.length!==0)?{root: classes.clear}:{root: classes.hiden}}
                 onClick={clearCompleted}component="h3"
                 variant="inherit">Clear complited</Typography>
-        </nav>
+        </Grid>
     );
 }
 

@@ -3,7 +3,6 @@ import { useSelector } from 'react-redux';
 import List from '@material-ui/core/List';
 import Todo from '../Todo'
 import map from "lodash/map";
-import '../../styles/todo.css';
 import useStyles from './styles';
 
 

@@ -2,7 +2,7 @@ import {makeStyles} from "@material-ui/core/styles";
 
 const useStyles = makeStyles({
     activButton:{
-        border: '#e89e99 1px solid'
+        border: '#e89e99 1px solid',
     },
     button:{
         border: 'none'
@@ -17,11 +17,19 @@ const useStyles = makeStyles({
         visibility: 'hidden',
     },
     text:{
+        width: 77,
+        display: 'block',
         fontWeight: 100,
         fontSize: 16,
     },
     buttonText:{
-        visibility: 'hidden',
+        textTransform: 'none',
+        fontWeight: 100,
+        fontSize: 16,
+        color: '#635f5c'
+    },
+    grid:{
+        padding: 15,
     },
 })
 

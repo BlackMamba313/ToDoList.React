@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import {useDispatch} from 'react-redux';
-import { TextField, InputAdornment } from '@material-ui/core';
+import { TextField, InputAdornment, InputBase } from '@material-ui/core';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import { v4 as uuidv4 } from 'uuid';
 import { add, show } from '../../redux/slices/todos'
@@ -38,10 +38,13 @@ function TodoForm() {
 
   return (
       <form  onSubmit={addTask}>
-      <TextField classes={{root: classes.root}} size="medium" id="standard-basic"  InputProps={{
-          startAdornment: (
-            <InputAdornment  position="start">
-              <ExpandMoreIcon classes={{root: classes.icon}} />
+        <TextField  id="standard-basic"  InputProps={
+            {classes: {input: classes.text},
+
+
+        startAdornment: (
+            <InputAdornment classes={{root: classes.startInput}} position="start">
+              <ExpandMoreIcon  classes={{root: classes.icon}} />
             </InputAdornment>
           ),
         }}
@@ -49,8 +52,8 @@ function TodoForm() {
         placeholder="What needs to be done?"
         onChange={getValue}
         value={userInput}
-      />
-   </form>
+        />
+      </form>
   );
 };
 

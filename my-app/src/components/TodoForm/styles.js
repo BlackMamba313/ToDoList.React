@@ -8,8 +8,14 @@ const useStyles = makeStyles({
         color: 'Silver',
         opacity: '0.4',
     },
-    root: {
+    startInput: {
+        marginLeft: 10,
 
+    },
+    text: {
+        fontStyle: 'italic',
+        fontSize: 25,
+        padding: 20
     },
 })
 
